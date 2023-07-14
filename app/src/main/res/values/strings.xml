@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name" translatable="false">Weatherly</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="settings">Settings</string>
+    <string name="google_maps_key" />
+    <string name="click_to_add_location">Click the button below to add a \n location from the map</string>
+    <string name="no_favourites">No Favourites</string>
+    <string name="add_location">Add Location</string>
+    <string name="main_settings">Main Settings</string>
+    <string name="notifications">Notification</string>
+    <string name="alerts">Alerts</string>
+    <string name="choose_language">Language</string>
+    <string name="arabic">العربية</string>
+    <string name="english">English</string>
+    <string name="favorite_location">Favorite Location</string>
+    <string name="temperature">Temperature</string>
+    <string name="celsius">Celsius (°C)</string>
+    <string name="fahrenheit">Fahrenheit (°F)</string>
+    <string name="kelvin">Kelvin (K)</string>
+    <string name="win_speed">Wind Speed</string>
+    <string name="meter_per_sec">Meter per second (m/s)</string>
+    <string name="kilometer_per_hour">Kilometer per hour (km/h)</string>
+    <string name="miles_per_hour">Miles per hour (mph)</string>
+    <string name="meter_by_sec">Meter / Sec</string>
+    <string name="miles_by_hour">Mile / Hour</string>
+    <string name="units">Units</string>
+    <string name="no_location_was_selected">No location was selected</string>
+    <string name="you_re_currently_offline">You\'re currently offline</string>
+    <string name="back_online">Back Online</string>
+    <string name="alert_mode">Alert Mode</string>
+    <string name="dialog">Dialog</string>
+    <string name="overlay_permission_denied">Overlay permission denied</string>
+    <string name="no_alerts">No Alerts</string>
+    <string name="please_add_alerts">Click 🔔 next to a location to add an alert</string>
+    <string name="delete_alert">Deleting an Alert</string>
+    <string name="delete_alert_message">Are you sure you want to delete this alert?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="ultraviolet">Ultraviolet</string>
+    <string name="cloud">Cloud</string>
+    <string name="visibility">Visibility</string>
+    <string name="hourly_forecast">Hourly Forecast</string>
+    <string name="daily_forecast">Daily Forecast</string>
+    <string name="are_you_sure_you_want_to_delete_this_location">Are you sure you want to delete this location?</string>
+    <string name="delete_location">Deleting Location</string>
+
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="0dp"
+    app:strokeWidth="0dp"
+
+
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/dailyDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MON"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@color/md_theme_light_weather_info_title"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="@id/dailyIcon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/dailyIcon" />
+
+    <ImageView
+        android:id="@+id/dailyIcon"
+        android:layout_width="48dp"
+        android:layout_height="30dp"
+        android:layout_margin="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloud_sun" />
+
+    <TextView
+        android:id="@+id/dailyDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Cloudy"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dailyIcon"
+        app:layout_constraintStart_toEndOf="@+id/dailyIcon"
+        app:layout_constraintTop_toTopOf="@id/dailyIcon" />
+
+    <TextView
+        android:id="@+id/dailyMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginStart="92dp"
+        app:layout_constraintBottom_toBottomOf="@id/dailyIcon"
+        app:layout_constraintStart_toEndOf="@id/dailyIcon"
+        app:layout_constraintTop_toTopOf="@id/dailyIcon" />
+
+        <TextView
+            android:id="@+id/dailyMin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Min"
+            android:textSize="14sp"
+            android:layout_margin="8dp"
+            app:layout_constraintTop_toTopOf="@id/dailyIcon"
+            app:layout_constraintBottom_toBottomOf="@id/dailyIcon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dailyDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</com.google.android.material.card.MaterialCardView>

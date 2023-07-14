@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mohamedhamza.weatherly.view.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.mohamedhamza.weatherly.view.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_favoritesFragment_to_favoriteLocationFragment"
+            app:destination="@id/favoriteLocationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.mohamedhamza.weatherly.view.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/favoriteLocationFragment"
+        android:name="com.mohamedhamza.weatherly.FavoriteLocationFragment"
+        android:label="fragment_favorite_location"
+        tools:layout="@layout/fragment_favorite_location" >
+
+        <argument
+            android:name="latitude"
+            app:argType="float" />
+        <argument
+            android:name="longitude"
+            app:argType="float" />
+    </fragment>
+    <fragment
+        android:id="@+id/alertsFragment"
+        android:name="com.mohamedhamza.weatherly.view.AlertsFragment"
+        android:label="fragment_alerts"
+        tools:layout="@layout/fragment_alerts" />
+</navigation>

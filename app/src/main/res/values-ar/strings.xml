@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home">الرئيسية</string>
+    <string name="favorites">المفضلة</string>
+    <string name="settings">الإعدادات</string>
+    <string name="google_maps_key" />
+    <string name="no_favourites">المفضلة فارغة</string>
+    <string name="click_to_add_location">إضغط على الزر أدناه لإضافة موقع من الخريطة</string>
+    <string name="add_location">إضافة موقع</string>
+    <string name="main_settings">الإعدادات الرئيسية</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="alerts">التنبيهات</string>
+    <string name="choose_language">اختر اللغة</string>
+    <string name="arabic">العربية</string>
+    <string name="english">English</string>
+    <string name="favorite_location">الموقع المفضل</string>
+    <string name="temperature">درجة الحرارة</string>
+    <string name="celsius">درجة مئوية (°C)</string>
+    <string name="fahrenheit">درجة فهرنهايت (°F)</string>
+    <string name="kelvin">كلفن (K)</string>
+    <string name="win_speed">سرعة الرياح</string>
+    <string name="meter_per_sec">متر في الثانية (m/s)</string>
+    <string name="kilometer_per_hour">كيلومتر في الساعة (km/h)</string>
+    <string name="miles_per_hour">ميل في الساعة (mph)</string>
+    <string name="meter_by_sec">متر / ثانية</string>
+    <string name="miles_by_hour">ميل / ساعة</string>
+    <string name="units">الوحدات</string>
+    <string name="no_location_was_selected">لم يتم اختيار موقع</string>
+    <string name="you_re_currently_offline">أنت غير متصل بالإنترنت</string>
+    <string name="back_online">متصل بالإنترنت</string>
+    <string name="alert_mode">وضع التنبيه</string>
+    <string name="dialog">ديالوج</string>
+    <string name="overlay_permission_denied">لم يحصل التطبيق على صلاحية عرض الديالوج </string>
+    <string name="no_alerts">لا يوجد تنبيهات</string>
+    <string name="please_add_alerts">إضغط على 🔔 بجانب الموقع لإضافة تنبيه</string>
+    <string name="delete_alert">حذف التنبيه</string>
+    <string name="delete_alert_message">هل أنت متأكد من حذف التنبيه؟</string>
+    <string name="delete">حذف</string>
+    <string name="cancel">إلغاء</string>
+    <string name="wind_speed">سرعة الرياح</string>
+    <string name="humidity">الرطوبة</string>
+    <string name="pressure">الضغط</string>
+    <string name="ultraviolet">الأشعة</string>
+    <string name="cloud">الغيوم</string>
+    <string name="visibility">الرؤية</string>
+    <string name="hourly_forecast">الساعات القادمة</string>
+    <string name="daily_forecast">الأيام القادمة</string>
+    <string name="are_you_sure_you_want_to_delete_this_location">هل أنت متأكد أنك تريد حذف هذا الموقع؟</string>
+    <string name="delete_location">حذف الموقع</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mph"
+        android:title="@string/miles_by_hour" />
+    <item android:id="@+id/ms"
+        android:title="@string/meter_by_sec" />
+</menu>

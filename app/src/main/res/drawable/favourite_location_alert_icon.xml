@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--make for two alert states active and inative -->
+    <item android:drawable="@drawable/favourite_location_alert_icon_on" android:state_activated="true"/>
+    <item android:drawable="@drawable/favourite_location_alert_icon_off" android:state_activated="false"/>
+
+</selector>
